@@ -1,0 +1,92 @@
+.error{
+    color: rgb(255, 0, 0);
+}
+
+body{
+    background: #e6faff;
+}
+
+.btn{
+    color:black;
+    background: #ebecec;
+    box-shadow: 2px 2px #dddddd;
+}
+
+.btn:hover{
+    background:lightskyblue;
+    box-shadow: 2px 2px rgb(117, 179, 218);
+}
+
+.dropdown-btn{
+    background: white;
+    box-shadow: none;
+}
+
+.dropdown-btn:hover{
+    background: white;
+    box-shadow: none;
+    color: rgb(52, 52, 255);
+}
+
+.header {
+    background: white;
+}
+.logo{
+    font-size: 40pt;
+    font-weight: 100;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 7%;
+}
+
+.menu{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.search-bar{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.search-button{
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 50%;
+}
+
+.search-input{
+    border: 1px solid lightgrey;
+    border-radius: 5px 0px 0px 5px;
+    height: 50%;
+}
+
+table{
+    border: 1px solid grey;
+}
+td, tr{
+    background: white;
+}
+
+thead tr{
+    background: #f8f9fa;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+form label{
+    font-weight: 500;
+}
+
+.menu{
+    font-weight: 500;
+    color: black;
+}
